@@ -25,22 +25,49 @@
         android:layout_weight="2">
 
         <TextView
-            android:id="@+id/textViewAndroid"
+            android:id="@+id/textViewC346"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="#30808080"
             android:gravity="center"
             android:padding="16dp"
-            android:text="@string/android" />
+            android:text="@string/c346" />
 
         <TextView
-            android:id="@+id/textViewIPad"
+            android:id="@+id/textViewC203"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="#30808080"
             android:gravity="center"
             android:padding="16dp"
-            android:text="@string/ipad" />
+            android:text="@string/c203" />
+
+        <TextView
+            android:id="@+id/textViewC206"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#30808080"
+            android:gravity="center"
+            android:padding="16dp"
+            android:text="@string/c206" />
+
+        <TextView
+            android:id="@+id/textViewC218"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#30808080"
+            android:gravity="center"
+            android:padding="16dp"
+            android:text="@string/c218" />
+
+        <TextView
+            android:id="@+id/textViewC235"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#30808080"
+            android:gravity="center"
+            android:padding="16dp"
+            android:text="@string/c235" />
     </LinearLayout>
 
 </LinearLayout>

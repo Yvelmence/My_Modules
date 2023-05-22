@@ -42,7 +42,31 @@ public class ModuleDetailActivity extends AppCompatActivity {
             tvCredit.setText("Module Credit: " + moduleSelectedCredit);
             tvVenue.setText("Venue: " + moduleSelectedVenue);
         }
-        else if(moduleSelectedCode.equals("C349")){
+        else if(moduleSelectedCode.equals("C203")){
+            tvCode.setText("Module Code: " + moduleSelectedCode);
+            tvName.setText("Module Name : " + moduleSelectedName);
+            tvYear.setText("Academic Year: " + moduleSelectedYear);
+            tvSem.setText("Semester: " + moduleSelectedSem);
+            tvCredit.setText("Module Credit: " + moduleSelectedCredit);
+            tvVenue.setText("Venue: " + moduleSelectedVenue);
+        }
+        else if(moduleSelectedCode.equals("C206")){
+            tvCode.setText("Module Code: " + moduleSelectedCode);
+            tvName.setText("Module Name : " + moduleSelectedName);
+            tvYear.setText("Academic Year: " + moduleSelectedYear);
+            tvSem.setText("Semester: " + moduleSelectedSem);
+            tvCredit.setText("Module Credit: " + moduleSelectedCredit);
+            tvVenue.setText("Venue: " + moduleSelectedVenue);
+        }
+        else if(moduleSelectedCode.equals("C218")){
+            tvCode.setText("Module Code: " + moduleSelectedCode);
+            tvName.setText("Module Name : " + moduleSelectedName);
+            tvYear.setText("Academic Year: " + moduleSelectedYear);
+            tvSem.setText("Semester: " + moduleSelectedSem);
+            tvCredit.setText("Module Credit: " + moduleSelectedCredit);
+            tvVenue.setText("Venue: " + moduleSelectedVenue);
+        }
+        else if(moduleSelectedCode.equals("C235")){
             tvCode.setText("Module Code: " + moduleSelectedCode);
             tvName.setText("Module Name : " + moduleSelectedName);
             tvYear.setText("Academic Year: " + moduleSelectedYear);

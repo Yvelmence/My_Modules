@@ -1,7 +1,10 @@
 <resources>
     <string name="app_name">My Modules</string>
     <string name="header">MODULES</string>
-    <string name="android">C346 Android Programming</string>
-    <string name="ipad">C349 iPad Programming</string>
+    <string name="c346">C346 Android Programming</string>
+    <string name="c203">C203 Web AppIn Development in php</string>
+    <string name="c206">C206 Software Development Process</string>
+    <string name="c235">C235 IT Security and Management</string>
+    <string name="c218">C218 UI/UX Design for Apps</string>
     <string name="reset">GO BACK</string>
 </resources>
