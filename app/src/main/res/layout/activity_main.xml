@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@drawable/fed9a6f536b35602004b1e24f219e8d3">
+
+    <TextView
+        android:id="@+id/textViewHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/header"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:textSize="48dp"
+        android:padding="24dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="2">
+
+        <TextView
+            android:id="@+id/textViewAndroid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#30808080"
+            android:gravity="center"
+            android:padding="16dp"
+            android:text="@string/android" />
+
+        <TextView
+            android:id="@+id/textViewIPad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#30808080"
+            android:gravity="center"
+            android:padding="16dp"
+            android:text="@string/ipad" />
+    </LinearLayout>
+
+</LinearLayout>
